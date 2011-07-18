@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+/* icons */
+
+.icon-delete {
+    background-image:url(../images/delete-32.png) !important;
+}

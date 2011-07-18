@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-preferences {
+    background-image:url(../images/preferences-16.png) !important;
+}
+.icon-preferences-shortcuts {
+    background-image:url(../images/preferences-shortcuts-16.png) !important;
+}
+.icon-preferences-autorun {
+    background-image:url(../images/preferences-autorun-16.png) !important;
+}
+.icon-preferences-quickstart {
+    background-image:url(../images/preferences-quickstart-16.png) !important;
+}
+.icon-preferences-appearance {
+    background-image:url(../images/preferences-appearance-16.png) !important;
+}
+.icon-preferences-webwares {
+    background-image:url(../images/preferences-webwares-16.png) !important;
+}
+
+/* Shortcut */
+
+#preferences-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/preferences-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/preferences/1.0.0/images/preferences-48.png', sizingMethod='scale');
+}
+
+/* View */
+#preferences-view .x-panel-body{
+	background: white;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+#preferences-view .preference{
+	/*background: #fff;*/
+	padding: 3px;
+	float: left;
+}
+#preferences-view .infomation {
+	padding: 5px;
+	margin-left: 15px;
+	vertical-align: top;
+}
+#preferences-view .preference img{
+	height: 48px;
+	width: 48px;
+}
+#preferences-view .preference-wrap{
+	/*float: left;*/
+	display: block;
+	margin: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	cursor: pointer;
+    border:0px solid #99bbe8;
+}
+#preferences-view .preference-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	font-weight: bold;
+}
+
+#preferences-view .x-view-over{
+    border:1px solid #dddddd;
+    background: #efefef url(../../../../ext/3.2.1/preferences/images/default/grid/row-over.gif) repeat-x left top;
+	padding: 5px;
+}
+
+#preferences-view .x-view-selected{
+	background: #eff5fb url(../../../../ext/3.2.1/examples/view/images/selected.gif) no-repeat right bottom;
+	border:1px solid #99bbe8;
+	padding: 5px;
+}
+#preferences-view .x-view-selected .preference{
+	background:transparent;
+}
+
+#preferences-view .loading-indicator {
+	font-size:11px;
+	background-image:url('../../../../ext/3.2.1/preferences/images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}

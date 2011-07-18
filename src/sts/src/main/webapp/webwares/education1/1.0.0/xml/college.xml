@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<college>
+	<colleges>
+		<collegeId>1</collegeId>
+		<collegeName>惠州学院</collegeName>
+		<collegeFather>无</collegeFather>
+	</colleges>
+</college>

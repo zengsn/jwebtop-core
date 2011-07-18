@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+#webwares-view .view-item img {
+	height: 100px;
+	width: 160px;
+}
+
+#webwares-view .enabled {
+	color: red;
+}
+#webwares-view .disabled {
+	color: green;
+}
+
+.webware-details{
+    padding: 10px;
+    text-align: center;
+}
+.webware-details img {
+	width: 200px;
+	height: 160px;
+}
+.webware-details-info{
+    border-top: 1px solid #cccccc;
+    font: 11px Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: left;
+}
+.webware-details-info center {
+	font-weight: bold;
+}
+.webware-details-info .enabled {
+	color: red;
+}
+.webware-details-info .disabled {
+	color: green;
+}
+.webware-details-info b{
+    color: #555555;
+    display: block;
+    margin-bottom: 4px;
+}
+.webware-details-info span{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}

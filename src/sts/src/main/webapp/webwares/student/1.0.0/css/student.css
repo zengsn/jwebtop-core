@@ -1,0 +1,92 @@
+
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-student {
+    background-image:url(../images/stu-student-16.png) !important;
+}
+.icon-student-admissions {
+    background-image:url(../images/stu-admissions-16.png) !important;
+}
+.icon-student-records {
+    background-image:url(../images/stu-records-16.png) !important;
+}
+.icon-student-classmates {
+    background-image:url(../images/stu-classmates-16.png) !important;
+}
+.icon-student-parents {
+    background-image:url(../images/stu-parents-16.png) !important;
+}
+.icon-student-medicaltreatment {
+    background-image:url(../images/stu-medicaltreatment-16.png) !important;
+}
+.icon-delete {
+    background-image:url(../images/delete-16.png) !important;
+}
+/* Shortcut */
+
+#student-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/stu-student-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/student/1.0.0/images/stu-student-48.png', sizingMethod='scale');
+}
+
+/* View */
+#student-view .x-panel-body{
+	background: white;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+#student-view .student{
+	/*background: #fff;*/
+	padding: 3px;
+	float: left;
+}
+#student-view .infomation {
+	padding: 5px;
+	margin-left: 15px;
+	vertical-align: top;
+}
+#student-view .student img{
+	height: 48px;
+	width: 48px;
+}
+#student-view .student-wrap{
+	/*float: left;*/
+	display: block;
+	margin: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	cursor: pointer;
+    border:1px solid #ffffff;
+}
+#student-view .student-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	font-weight: bold;
+}
+
+#student-view .x-view-over{
+    border:1px solid #dddddd;
+    background: #efefef url(../../../../ext/3.2.1/student/images/default/grid/row-over.gif) repeat-x left top;
+	padding: 5px;
+}
+
+#student-view .x-view-selected{
+	background: #eff5fb url(../../../../ext/3.2.1/examples/view/images/selected.gif) no-repeat right bottom;
+	border:1px solid #99bbe8;
+	padding: 5px;
+}
+#student-view .x-view-selected .student{
+	background:transparent;
+}
+
+#student-view .loading-indicator {
+	font-size:11px;
+	background-image:url('../../../../ext/3.2.1/student/images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<college>
+	<!--
+		+ 教师编号 +
+		+ 教师姓名 +
+		+ 教师职称 +
+		+ 教师职位 +
+		+ 院系编号 +
+		+ 院系名称 +
+		+ 家庭电话 +
+		+   手机  +
+	-->
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>08软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>Java，是由Sun Microsystems公司于1995年5月推出的Java程序设计语言和Java平台的总称。用Java实现的HotJava浏览器（支持Java applet）显示了Java的魅力：跨平台、动态的Web、Internet计算。从此，Java被广泛接受并推动了Web的迅速发展，常用的浏览器现在均支持Java applet。</subjectDesc>
+	</subjects>
+</college>

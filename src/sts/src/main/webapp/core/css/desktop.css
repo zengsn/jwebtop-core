@@ -1,0 +1,187 @@
+/*!
+ * Ext JS Library 3.2.1
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+html, body {
+	background:#3d71b8 url(../images/03.png) no-repeat top center;
+    font: normal 12px tahoma, arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+}
+
+.start {
+	background-image: url( ../images/taskbar/black/startbutton-icon.gif ) !important;
+}
+
+.bogus {
+	background-image: url( ../images/bogus.png ) !important;
+}
+
+.logout {
+	background-image: url( ../images/logout.gif ) !important;
+}
+
+.settings {
+	background-image: url( ../images/gears.gif ) !important;
+}
+
+#dpanels {
+	width: 250px;
+	float: right;
+}
+
+#dpanels .x-panel {
+	margin: 15px;
+}
+
+#dpanels .x-date-picker {
+	border: 0 none;
+	border-top: 0 none;
+	background: transparent;
+}
+
+#dpanels .x-date-picker td.x-date-active {
+	background: #ffffff;
+}
+
+#dpanels .x-date-picker {
+	width: 100% !important;
+}
+
+#x-desktop {
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+	position: relative;
+    overflow:hidden;
+    zoom:1;
+}
+
+
+.icon-grid {
+    background-image:url( ../images/grid.png ) !important;
+}
+.add {
+    background-image:url(../../shared/icons/fam/add.gif) !important;
+}
+.option {
+    background-image:url(../../shared/icons/fam/plugin.gif) !important;
+}
+.remove {
+    background-image:url(../../shared/icons/fam/delete.gif) !important;
+}
+.save {
+    background-image:url(../../shared/icons/save.gif) !important;
+}
+.accordion {
+    background-image:url(../images/accordian.gif) !important;
+}
+.tabs {
+    background-image:url(../images/tabs.gif) !important;
+}
+
+/* IM window icons */
+
+.user {
+    background-image:url( ../../shared/icons/fam/user.gif ) !important;
+}
+
+.user-add {
+    background-image:url(../../shared/icons/fam/user_add.gif) !important;
+}
+
+.user-delete {
+    background-image:url(../../shared/icons/fam/user_delete.gif) !important;
+}
+
+.connect {
+    background-image:url(../../shared/icons/fam/connect.gif) !important;
+}
+
+.user-girl {
+    background-image:url(../../shared/icons/fam/user_female.gif) !important;
+}
+
+.user-kid {
+    background-image:url(../../shared/icons/fam/user_green.gif) !important;
+}
+
+.user-suit {
+    background-image:url(../../shared/icons/fam/user_suit.gif) !important;
+}
+
+
+.x-clear {
+    clear:both;
+    height:0;
+    overflow:hidden;
+    line-height:0;
+    font-size:0;
+}
+
+/*
+ * End Start button
+ */
+
+.x-resizable-proxy{
+    background:#C7DFFC;
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    border: 1px solid #3b5a82;
+}
+
+/* Desktop Shortcuts */
+#x-shortcuts dt {
+    float:left;
+    margin:15px 0 0 15px;
+    clear:left;
+    width:64px;
+    font:normal 10px tahoma,arial,verdana,sans-serif;
+    text-align:center;
+    zoom:1;
+    display:block;
+}
+#x-shortcuts dt a {
+    width:64px;
+    display:block;
+    color:silver;
+    font-size: 12px;
+    text-decoration:none;
+    padding:3px;
+    border: 1px silver solid;
+}
+#x-shortcuts dt div {
+    width:100%;
+    color:white;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    cursor:pointer;
+}
+.ext-ie #x-shortcuts dt img {
+    background:transparent !important;
+}
+#x-shortcuts dt a:hover {
+    color:white;
+    text-decoration: none;
+    padding:3px;
+    border: 1px white solid;
+}
+/* shortcuts */
+#grid-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/grid48x48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='core/images/grid48x48.png', sizingMethod='scale');
+}
+#acc-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/im48x48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='core/images/im48x48.png', sizingMethod='scale');
+}

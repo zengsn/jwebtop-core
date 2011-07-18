@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.jwebtop.core.model.CalendarEvent" table="calendar_event" lazy="false">
+		<id name="id" column="event_id_">
+		    <generator class="identity"></generator>
+		</id>
+		<property name="title" column="title_" type="string" />
+		<property name="startTime" column="startTime_" type="java.util.Date" />
+		<property name="endTime" column="endTime_" type="java.util.Date" />
+        <property name="location" column="location_" type="string" />
+        <property name="note" column="note_" type="string" />
+        <property name="url" column="url_" type="string" />
+        <property name="allDay" column="allday_" type="java.lang.Boolean" />
+        <property name="reminder" column="reminder_" type="string" />
+        <property name="n" column="isnew_" type="java.lang.Boolean" />
+        
+        <many-to-one name="user" class="org.jwebtop.core.model.User" outer-join="true">
+		   <column name="user_id_" not-null="true"></column>
+		</many-to-one>
+        
+        <many-to-one name="calendar" class="org.jwebtop.core.model.Calendar" outer-join="true">
+		   <column name="calendar_id_" not-null="true"></column>
+		</many-to-one>
+	</class>
+</hibernate-mapping>
+<!-- 
+     private Integer id;
+     private Calendar calendar;
+     private String title;
+     private Date startTime;
+     private Date endTime;
+     private String location;
+     private String note;
+     private String url;
+     private boolean allDay;
+     private String reminder;
+     private boolean n;
+     private User user;
+ -->

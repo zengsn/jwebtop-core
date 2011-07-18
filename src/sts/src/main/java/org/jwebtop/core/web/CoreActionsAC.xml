@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+	<!-- Actions -->
+	
+	<bean id="index" class="org.jwebtop.core.web.IndexAction">
+		<property name="forward">
+			<value>/webtop.jsp</value>
+		</property>
+		<property name="configurationService">
+			<ref bean="configurationService"/>
+		</property>
+		<property name="webwareService">
+			<ref bean="webwareService"/>
+		</property>
+		<property name="userService">
+			<ref bean="userService"/>
+		</property>
+	</bean>
+	
+	<bean id="webware" class="org.jwebtop.core.web.WebwareAction">
+		<property name="webwareService">
+			<ref bean="webwareService"/>
+		</property>
+	</bean>
+	<bean id="relation" class="org.jwebtop.core.web.RelationAction">
+		<property name="relationService">
+			<ref bean="relationService"/>
+		</property>
+	</bean>
+	<bean id="email" class="org.jwebtop.core.web.EmailAction">
+	   <property name="emailSettingService">
+          <ref bean="emailSettingService"/>	   
+ 	   </property>
+ 	   <property name="emailManagerService">
+          <ref bean="emailManagerService"/>	   
+ 	   </property>
+	</bean>
+
+    <bean id="calendar" class="org.jwebtop.core.web.CalendarAction">
+		<property name="calendarService">
+			<ref bean="calendarService"/>
+		</property>
+	</bean>
+	
+
+</beans>

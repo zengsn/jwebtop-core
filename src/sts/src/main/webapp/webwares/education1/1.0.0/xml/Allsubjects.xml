@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<college>
+	<!--
+		+ 教师编号 +
+		+ 教师姓名 +
+		+ 教师职称 +
+		+ 教师职位 +
+		+ 院系编号 +
+		+ 院系名称 +
+		+ 家庭电话 +
+		+   手机  +
+	-->
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLastTime>18周</subjectLastTime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+	<subjects>
+		<subjectId>1</subjectId>
+		<subjectName>JAVA</subjectName>
+		<subjectTime>8:00-9:00</subjectTime>
+		<subjectPeriod>120</subjectPeriod>
+		<subjectCredit>2</subjectCredit>
+		<subjectLasttime>18周</subjectLasttime>
+		<subjectExam>考试</subjectExam>
+		<subjectClass>软件2班</subjectClass>
+		<subjectAdd>5-302</subjectAdd>
+		<subjectTeacher>teacher1</subjectTeacher>
+		<subjectDept>计算机科学系</subjectDept>
+		<subjectDesc>这是计算机科学系软件工程专业的一门专业课。</subjectDesc>
+	</subjects>
+</college>

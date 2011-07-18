@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-administrator {
+    background-image:url(../images/administrator-16.png) !important;
+}
+
+/* Shortcut */
+
+#administrator-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/administrator-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/administrator/1.0.0/images/administrator-48.png', sizingMethod='scale');
+}

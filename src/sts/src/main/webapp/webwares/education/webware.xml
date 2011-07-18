@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webware>
+	<id>education</id>
+	<name>教学管理</name>
+	<author>JWebtop.org</author>
+	<release>2009-06-11</release>
+	<!--  
+	<screen>administrator-screen.png</screen>
+	<logo>administrator-48.png</logo>
+	<icon>administrator-icon.png</icon>
+	-->
+	<!--
+	  + 模块截图：128 * 128 像素。 
+	  -->
+	<screen>edu-education-128.png</screen>
+	<!--
+	  + 模块logo：48 * 48 像素。 
+	  -->
+	<logo>edu-education-48.png</logo>
+	<!--
+	  + 模块icon：16 * 16 像素。 
+	  -->
+	<icon>edu-education-16.png</icon>
+	<description>
+		<![CDATA[
+			管理员可用于强制更新网件配置、管理用户、管理群组、管理访问权限等。
+		]]>
+	</description>
+	<versions>1.0.0</versions>
+	<currentVersion>1.0.0</currentVersion>
+	<status>1</status>
+	<!-- 
+    <styles>
+    	<style>webwares.css</style>
+    	<style>users.css</style>
+    	<style>delete.css</style>
+    	<style>education.css</style>
+    </styles>
+	<jsSources>
+		<source>Education.js</source>
+		<source>LeftMenu.js</source>
+		<source>MainPanel.js</source>
+		<source>DeptPanel.js</source>
+	    <source>DeptWindow.js</source>
+		<source>CompanyPanel.js</source>
+	</jsSources>
+	-->
+	<!--
+		edit since 2010-01-18 by hzucmj
+	-->
+	<styles>
+		<style>webware.css</style>
+		<style>education.css</style>
+	</styles>
+	<jsSources>
+		<source>Education.js</source>
+        <source>TreeMenu.js</source>
+		<source>LeftMenu.js</source>
+		<source>CollegePanel.js</source>
+		<source>NameBookPanel.js</source>
+		<source>CourseChartPanel.js</source>
+		<source>CourseMgmtPanel.js</source>
+		<source>TeacherMgmtGroupGridPanel.js</source>
+		<source>MainPanel.js</source>
+	    <source>CheckColumn.js</source>
+	    <source>RowExpander.js</source>
+	     <source>Ext.app.SearchField.js</source>
+	</jsSources>
+	<jsCompress>null</jsCompress>
+	<jsClass>JW.PreferencesWindow</jsClass>
+	<springContext>org/jwebtop/webwares/applicationContext.xml</springContext>
+	<acl>
+		<read>*</read>
+		<write></write>
+		<create></create>
+		<delete>ROLE_ADMIN</delete>
+		<admin>ROLE_ADMIN</admin>
+	</acl>
+</webware>

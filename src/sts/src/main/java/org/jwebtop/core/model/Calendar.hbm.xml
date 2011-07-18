@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.jwebtop.core.model.Calendar" table="calendar" lazy="false">
+		<id name="id" column="calendar_id_">
+		    <generator class="identity"></generator>
+		</id>
+		<property name="title" column="title_" type="string" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+			
+	<bean id="cacheService" class="org.jwebtop.core.service.CacheServiceWithEhcache">
+		<property name="ehcache">
+			<ref bean="jwEhcache"/>
+		</property>
+	</bean>
+
+	<bean id="userService" class="org.jwebtop.core.service.UserServiceImpl">
+		<property name="userDao">
+			<ref bean="userDao"/>
+		</property>
+		<!-- 
+		<property name="cacheService">
+			<ref bean="cacheService"/>
+		</property> -->
+		<property name="profileService">
+			<ref bean="profileService"/>
+		</property>
+	</bean>
+	<bean id="profileService" class="org.jwebtop.core.service.ProfileServiceImpl">
+		<property name="profileDao">
+			<ref bean="profileDao"/>
+		</property>
+	</bean>
+	<bean id="webwareService" class="org.jwebtop.core.service.WebwareServiceImpl">
+		<property name="webwareDao">
+			<ref bean="webwareDao"/>
+		</property>
+		<property name="cacheService">
+			<ref bean="cacheService"/>
+		</property> 
+		<property name="userService">
+			<ref bean="userService"/>
+		</property>
+		<property name="profileService">
+			<ref bean="profileService"/>
+		</property>
+		<property name="mutableAclService">
+			<ref bean="aclService"/>
+		</property>
+		<property name="configurationService">
+			<ref bean="configurationService"/>
+		</property>
+	</bean>
+	
+	<bean id="configurationService" class="org.jwebtop.core.service.ConfigurationServiceImpl">
+	</bean>
+    <bean id="relationService" class="org.jwebtop.core.service.RelationServiceImpl">
+		<property name="relationDao">
+			<ref bean="relationDao"/>
+		</property>
+	</bean>
+	<bean id="emailSettingService" class="org.jwebtop.core.service.EmailSettingServiceImpl">
+     <property name="emailUserSettingDao">
+        <ref bean="emailUserSettingDao"/>
+     </property>
+  </bean>
+  
+    <bean id="emailManagerService" class="org.jwebtop.core.service.EmailManagerServiceImpl">
+     <property name="emailDraftDao">
+        <ref bean="emailDraftDao"/>
+     </property>
+     <property name="emailUserSettingDao">
+        <ref bean="emailUserSettingDao"/>
+     </property>
+  </bean>
+  
+  <bean id="calendarService" class="org.jwebtop.core.service.CalendarServiceImpl">
+       <property name="calendarDao">
+			<ref bean="calendarDao"/>
+		</property>
+       <property name="calendarEventDao">
+			<ref bean="calendarEventDao"/>
+		</property>
+  </bean>
+	
+</beans>

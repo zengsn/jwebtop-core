@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enrolldatas>
+	<enrolldata>
+	    <sid>0814032</sid>
+		<name>小明</name>
+		<sex>男</sex>
+		<age>14</age>
+		<evaluate>A</evaluate>
+		<email>3274873297@qq.com</email>
+		<phone>8616414</phone>
+		<enrolltime>9/1 12:00am</enrolltime>
+		<sign>否</sign>
+    </enrolldata>
+</enrolldatas>

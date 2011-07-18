@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+/* Icon */
+
+.icon-explorer {
+    background-image:url(../../resources/icons/silk/png/folder_explore.png) !important;
+}
+
+/* View */
+#resources-view .x-panel-body{
+	background: white;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+#resources-view .resource{
+	background: #fff;
+	padding: 3px;
+}
+#resources-view .resource img{
+	height: 48px;
+	width: 48px;
+}
+#resources-view .resource-wrap{
+	float: left;
+	margin: 4px;
+	margin-right: 0;
+	padding: 5px;
+	cursor: pointer;
+}
+#resources-view .resource-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+#resources-view .x-view-over{
+    border:1px solid #dddddd;
+    background: #efefef url(../../ext/3.2.1/resources/images/default/grid/row-over.gif) repeat-x left top;
+	padding: 4px;
+}
+
+#resources-view .x-view-selected{
+	background: #eff5fb url(../../ext/3.2.1/examples/view/images/selected.gif) no-repeat right bottom;
+	border:1px solid #99bbe8;
+	padding: 4px;
+}
+#resources-view .x-view-selected .resource{
+	background:transparent;
+}
+
+#resources-view .loading-indicator {
+	font-size:11px;
+	background-image:url('../../ext/3.2.1/resources/images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}

@@ -1,0 +1,5 @@
+2011-06-12
+
+ACL 对象的 ID 问题：
+Spring Security 只支持 Integer 类型，考虑将实现改为 String； 
+或者将对象 ID 改为 Integer

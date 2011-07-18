@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<id>admissions</id>
+		<name>招生工作</name>
+		<image>/webwares/student/1.0.0/images/stu-admissions-128.png</image>
+		<summary>
+			招生工作的具体细节。
+		</summary>
+	</student>
+	<student>
+		<id>records</id>
+		<name>学生档案</name>
+		<image>/webwares/student/1.0.0/images/stu-records-128.png</image>
+		<summary>记录学生的详细档案。</summary>
+	</student>
+	<student>
+		<id>classmates</id>
+		<name>校友管理</name>
+		<image>/webwares/student/1.0.0/images/stu-classmates-128.png</image>
+		<summary>与已毕业的校友保持联系。</summary>
+	</student>
+	<student>
+		<id>parents</id>
+		<name>家长通道</name>
+		<image>/webwares/student/1.0.0/images/stu-parents-128.png</image>
+		<summary>提供通道给家长，使家长很容易了解到学生的动静。</summary>
+	</student>
+	<student>
+		<id>medicaltreatment</id>
+		<name>医疗记录</name>
+		<image>/webwares/student/1.0.0/images/stu-medicaltreatment-128.png</image>
+		<summary>了解学生的健康情况。</summary>
+	</student>
+</students>

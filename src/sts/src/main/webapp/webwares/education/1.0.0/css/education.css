@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-education {
+    background-image:url(../images/edu-teaching-16.png) !important;
+}
+.icon-education-shortcuts {
+    background-image:url(../images/preferences-shortcuts-16.png) !important;
+}
+.user-add{
+    background-image:url(../images/add.png) !important;
+}
+.user-delete{
+    background-image:url(../images/delete.png) !important;
+}
+.user-edit{
+    background-image:url(../images/edit.png) !important;
+}
+.dept-manager{
+    background-image:url(../images/homemanage.gif) !important;
+}
+.course-manager{
+    background-image:url(../images/allmanagemenu.png) !important;
+}
+.coursechart{
+    background-image:url(../images/roolrecordicon.png) !important;
+}
+.namebook{
+    background-image:url(../images/totalicon.png) !important;
+}
+.teachermgmt{
+    background-image:url(../images/guesticon.png) !important;
+}
+.save{
+    background-image:url(../images/save.png) !important;
+}.export{
+    background-image:url(../images/arrow_left.png) !important;
+}
+.class-manager{
+    background-image:url(../images/disconnect.png) !important;
+}
+.department-manager{
+    background-image:url(../images/flag_blue.png) !important;
+}
+.male img{
+    background-image:url(../images/user_suit.png) !important;
+}
+.female img{
+    background-image:url(../images/user_female.png) !important;
+}
+
+/* Shortcut */
+
+#education-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/edu-teaching-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/education/1.0.0/images/edu-teaching-48.png', sizingMethod='scale');
+}
+
+
+/* View */

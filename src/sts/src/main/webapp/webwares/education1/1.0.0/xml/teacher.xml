@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<college>
+	<!--
+		+ 教师编号 +
+		+ 教师姓名 +
+		+ 教师职称 +
+		+ 教师职位 +
+		+ 院系编号 +
+		+ 院系名称 +
+		+ 家庭电话 +
+		+   手机  +
+	-->
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+	<teachers>
+		<teacherId>1</teacherId>
+		<teacherName>teacher1</teacherName>
+		<teacherTitle>教授</teacherTitle>
+		<teacherPost>辅导员</teacherPost>
+		<departmentId>1</departmentId>
+		<departmentName>计算机科学系</departmentName>
+		<teacherTel>12345678</teacherTel>
+		<teacherPhone>13888888888</teacherPhone>
+	</teachers>
+</college>

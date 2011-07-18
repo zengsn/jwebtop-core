@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+	<!-- 
+		+ 学号 +
+		+ 姓名 +
+		+ 性别 +
+		+ 民族 +
+		+ 籍贯 +
+		+ 出生年月 +
+		+ 教育程度 +
+		+ 所在系 +
+		+ 班级 +
+		+ 政治面貌 +
+		+ 联系电话 +
+		+ 身份证号 +
+		+ 家庭住址 +
+	 -->
+	<students>
+		<studentNum>081403201</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403202</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403203</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403204</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403205</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403206</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403207</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+	<students>
+		<studentNum>081403208</studentNum>
+		<studentName>a</studentName>
+		<studentSex>male</studentSex>
+		<studentNation>汉</studentNation>
+		<studentOrigin>Guangdong</studentOrigin>
+		<studentBirth>1999-99-99</studentBirth>
+		<studentEdu>College</studentEdu>
+		<studentDept>Computer Science</studentDept>
+		<studentClass>software 2</studentClass>
+		<studentPolitics>party member</studentPolitics>
+		<studentTel>13888888888</studentTel>
+		<studentID>440500404302003004320</studentID>
+		<studentAdd>Huizhou City, Guangdong Province, China.</studentAdd>
+	</students>
+</college>

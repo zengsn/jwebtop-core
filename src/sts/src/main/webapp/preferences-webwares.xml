@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response success="true">
+	<webware>
+		<id>preferences</id>
+		<index>1</index>
+		<name>偏好设置</name>
+		<versions>1.0.0, 1.0.1</versions>
+		<currentVersion>1.0.0</currentVersion>
+		<author>JWebtop.org</author>
+		<release>2009-05-26</release>
+		<status>1</status>
+		<score>99.9</score>
+		<screen>/webwares/preferences/1.0.0/images/preferences-screen.png</screen>
+		<image>/webwares/preferences/1.0.0/images/preferences-48.png</image>
+		<description>Configure Preferences of Your WebTop.</description>
+	</webware>
+	<webware>
+		<id>test</id>
+		<index>99</index>
+		<name>测试</name>
+		<versions>1.0.0, 1.0.1</versions>
+		<currentVersion>1.0.0</currentVersion>
+		<author>JWebtop.org</author>
+		<release>2009-05-26</release>
+		<status>0</status>
+		<score>69.9</score>
+		<screen>/webwares/preferences/1.0.0/images/preferences-screen.png</screen>
+		<image>/webwares/preferences/1.0.0/images/preferences-48.png</image>
+		<description>Configure Preferences of Your WebTop.</description>
+	</webware>
+</response>

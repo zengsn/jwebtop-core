@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.jwebtop.core.model.EmailUserSetting" table="email_usersetting" lazy="false">
+		<id name="id" column="setting_id_">
+		    <generator class="identity"></generator>
+		</id>
+		<property name="name" column="name_" type="string" />
+		<property name="emailAddress" column="email_address_" type="string" />
+		<property name="popService" column="popService_" type="string" />
+		<property name="stmpService" column="stmpService_" type="string" />
+        <property name="active" column="active_" type="java.lang.Boolean"></property>
+        <property name="password" column="epassword_" type="string"></property>
+        <property name="decription" column="decription_" type="string"></property>
+        
+        <many-to-one name="user" class="org.jwebtop.core.model.User" outer-join="true">
+           <column name="userid_" not-null="true"></column>
+        </many-to-one>
+        
+	</class>
+</hibernate-mapping>
+
+<!-- 
+private Integer id;
+    private String name;
+    private String emailAddress;
+    private String popService;
+    private String stmpService;
+    private User user;
+ -->

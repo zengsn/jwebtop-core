@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-office {
+    background-image:url(../images/office-16.png) !important;
+}
+
+/* Shortcut */
+
+#office-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/office-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/office/1.0.0/images/office-48.png', sizingMethod='scale');
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+    <class classes="初一" >
+        <grade grades="1班">
+        <student 
+        sid="081403238" 
+        name="庄秋乃" 
+        sex="男" 
+        age="15" 
+        evaluate="A" 
+        email="chengxiaoming@qq.com" 
+        phone="8610324" 
+        enrolltime="9/1 12:00am" 
+        >
+        </student>
+        </grade>
+    </class>
+    <class classes="初二" >
+        <grade grades="2班">
+        <student 
+        sid="081403205" 
+        name="陈奇峰" 
+        sex="男" 
+        age="15" 
+        evaluate="A" 
+        email="chengxiaoming@qq.com" 
+        phone="8610324" 
+        enrolltime="9/1 12:00am" 
+        >
+        </student>
+        </grade>
+    </class>
+    <class classes="初三" >
+        <grade grades="3班">
+        <student 
+        sid="081403207" 
+        name="郭乐斌" 
+        sex="男" 
+        age="15" 
+        evaluate="A" 
+        email="chengxiaoming@qq.com" 
+        phone="8610324" 
+        enrolltime="9/1 12:00am" 
+        >
+        </student>
+        </grade>
+    </class>
+</files>

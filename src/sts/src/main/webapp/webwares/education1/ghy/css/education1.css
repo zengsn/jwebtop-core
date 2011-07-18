@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-education {
+    background-image:url(../images/edu-teaching-16.png) !important;
+}
+.icon-education-shortcuts {
+    background-image:url(../images/preferences-shortcuts-16.png) !important;
+}
+/* Shortcut */
+
+#education-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/edu-teaching-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/education/1.0.0/images/edu-teaching-48.png', sizingMethod='scale');
+}
+
+/* View */

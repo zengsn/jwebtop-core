@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applydatas>
+	<applydata>
+		<name>小明</name>
+		<sex>男</sex>
+		<age>14</age>
+		<score>245</score>	
+		<email>3274873297@qq.com</email>
+		<phone>8616414</phone>
+		<mark>未批</mark>
+    </applydata>
+</applydatas>

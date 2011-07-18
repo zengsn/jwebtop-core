@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+/* icons */
+
+.icon-officemails {
+    background-image:url(../images/officemails-32.png) !important;
+}
+
+.icon-mailsreceive {
+    background-image:url(../images/mailsreceive-16.png) !important;
+}
+
+.icon-mailswrite {
+    background-image:url(../images/mailswrite-16.png) !important;
+}
+
+.icon-outbox {
+    background-image:url(../images/outbox-16.png) !important;
+}
+
+.icon-draft {
+    background-image:url(../images/draft-16.png) !important;
+}
+
+.icon-add {
+    background-image:url(../images/add-16.png) !important;
+}
+
+.icon-modify {
+    background-image:url(../images/modify-16.png) !important;
+}
+
+.icon-delete {
+    background-image:url(../images/delete-16.png) !important;
+}
+
+.icon-send {
+    background-image:url(../images/send-16.png) !important;
+}
+
+.icon-cancel {
+    background-image:url(../images/cancel-16.png) !important;
+}
+
+.icon-attach {
+    background-image:url(../images/attach-16.png) !important;
+}
+.icon-cc {
+    background-image:url(../images/cc-16.png) !important;
+}
+
+.icon-refresh {
+    background-image:url(../images/refresh-16.png) !important;
+}
+
+

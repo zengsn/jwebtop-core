@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+/* icons */
+
+.icon-add {
+    background-image:url(../images/add-32.png) !important;
+}

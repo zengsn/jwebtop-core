@@ -1,0 +1,99 @@
+
+@CHARSET "UTF-8";
+
+/* Icon */
+.icon-education {
+    background-image:url(../images/edu-education-16.png) !important;
+}
+.icon-education-college {
+    background-image:url(../images/edu-college-16.png) !important;
+}
+.icon-education-course {
+    background-image:url(../images/edu-course-16.png) !important;
+}
+.icon-education-Schedule {
+    background-image:url(../images/edu-Schedule-16.png) !important;
+}
+.icon-education-schoolwork {
+    background-image:url(../images/edu-schoolwork-16.png) !important;
+}
+.icon-education-gradebook {
+    background-image:url(../images/edu-gradebook-16.png) !important;
+}
+.icon-education-ReportCard {
+    background-image:url(../images/edu-reportcard-16.png) !important;
+}
+.icon-education-Examination {
+    background-image:url(../images/edu-Examination-16.png) !important;
+}
+.icon-education-ELearning {
+    background-image:url(../images/edu-ELearning-16.png) !important;
+}
+
+/* Shortcut */
+
+#education-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/edu-education-48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='webwares/education/1.0.0/images/edu-education-48.png', sizingMethod='scale');
+}
+
+/* View */
+#education-view .x-panel-body{
+	background: white;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+#education-view .education{
+	/*background: #fff;*/
+	padding: 3px;
+	float: left;
+}
+#education-view .infomation {
+	padding: 5px;
+	margin-left: 15px;
+	vertical-align: top;
+}
+#education-view .education img{
+	height: 48px;
+	width: 48px;
+}
+#education-view .education-wrap{
+	/*float: left;*/
+	display: block;
+	margin: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	cursor: pointer;
+    border:1px solid #ffffff;
+}
+#education-view .education-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	font-weight: bold;
+}
+
+#education-view .x-view-over{
+    border:1px solid #dddddd;
+    background: #efefef url(../../../../ext/3.2.1/education/images/default/grid/row-over.gif) repeat-x left top;
+	padding: 5px;
+}
+
+#education-view .x-view-selected{
+	background: #eff5fb url(../../../../ext/3.2.1/examples/view/images/selected.gif) no-repeat right bottom;
+	border:1px solid #99bbe8;
+	padding: 5px;
+}
+#education-view .x-view-selected .education{
+	background:transparent;
+}
+
+#education-view .loading-indicator {
+	font-size:11px;
+	background-image:url('../../../../ext/3.2.1/education/images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}

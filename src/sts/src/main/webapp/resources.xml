@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources path="/">
+	<resource>
+		<id>preferences</id>
+		<index>1</index>
+		<name>偏好设置</name>
+		<path>/prefereces</path>
+		<!-- path, webware, window -->
+		<type>window</type>
+		<image>/resources/icons/basicset/gear_48.png</image>
+		<summary>Configure Preferences of Your WebTop.</summary>
+	</resource>
+</resources>

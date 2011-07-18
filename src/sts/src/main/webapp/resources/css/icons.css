@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+.icon-refresh {
+    background-image:url(../icons/silk/png/arrow_refresh.png) !important;
+}
+.icon-right {
+    background-image:url(../icons/silk/png/arrow_right.png) !important;
+}
+.icon-left {
+    background-image:url(../icons/silk/png/arrow_left.png) !important;
+}
+.icon-go {
+    background-image:url(../icons/silk/png/resultset_next.png) !important;
+}
+.icon-help {
+    background-image:url(../icons/silk/png/help.png) !important;
+}
+.icon-enable {
+    background-image:url(../icons/silk/png/accept.png) !important;
+}
+.icon-disable {
+    background-image:url(../icons/silk/png/delete.png) !important;
+}
+.icon-upgrade {
+    background-image:url(../icons/silk/png/arrow_up.png) !important;
+}
+.icon-search {
+    background-image:url(../icons/search-16.png) !important;
+}
+.icon-message {
+    background-image:url(../icons/silk/png/bell.png) !important;
+}
+
+
+a.logo {
+	width: 192px;
+	height: 51px;
+	background: url(../images/logo.png) no-repeat;
+}
+a.logo:hover {
+	width: 192px;
+	height: 51px;
+	background: url(../images/logo-hover.png) no-repeat;
+}

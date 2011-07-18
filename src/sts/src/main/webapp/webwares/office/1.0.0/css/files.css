@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+/* icons */
+
+.icon-officefiles {
+    background-image:url(../images/officefiles-32.png) !important;
+}
+
+.icon-filesupload {
+    background-image:url(../images/filesupload-16.png) !important;
+}
+
+.icon-filesdownload {
+    background-image:url(../images/filesdownload-16.png) !important;
+}
+
+.icon-delete {
+    background-image:url(../images/delete-16.png) !important;
+}
+.icon-refresh {
+    background-image:url(../images/refresh-16.png) !important;
+}
+

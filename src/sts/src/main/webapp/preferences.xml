@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+	<prenference>
+		<id>shortcuts</id>
+		<name>快捷方式</name>
+		<image>/webwares/preferences/1.0.0/images/preferences-shortcuts-48.png</image>
+		<summary>设置快捷方式。</summary>
+	</prenference>
+	<prenference>
+		<id>autorun</id>
+		<name>自动运行</name>
+		<image>/webwares/preferences/1.0.0/images/preferences-autorun-48.png</image>
+		<summary>设置自动运行项。</summary>
+	</prenference>
+	<prenference>
+		<id>quickstart</id>
+		<name>快速启动</name>
+		<image>/webwares/preferences/1.0.0/images/preferences-quickstart-48.png</image>
+		<summary>设置快速启动项。</summary>
+	</prenference>
+	<prenference>
+		<id>appearance</id>
+		<name>显示设置</name>
+		<image>/webwares/preferences/1.0.0/images/preferences-appearance-48.png</image>
+		<summary>设置颜色、外观和桌面背景。</summary>
+	</prenference>
+	<prenference>
+		<id>webwares</id>
+		<name>安装网件</name>
+		<image>/webwares/preferences/1.0.0/images/preferences-webwares-48.png</image>
+		<summary>添加、删除、升级网件。</summary>
+	</prenference>
+</preferences>

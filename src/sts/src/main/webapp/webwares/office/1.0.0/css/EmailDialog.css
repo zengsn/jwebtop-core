@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+/* icons */
+.icon-send {
+    background-image:url(../images/send-16.png) !important;
+}
