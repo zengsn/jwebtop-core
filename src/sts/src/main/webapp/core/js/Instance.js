@@ -39,7 +39,7 @@ JW.Instance = new JW.System({
 	//getStartConfig函数
     getStartConfig : function(){
         return {
-            title: 'Guest',
+            title: Ext.get('welcome-username')?Ext.get('welcome-username').dom.innerHTML:'GUEST',
             iconCls: 'user',
             toolItems: [
            {

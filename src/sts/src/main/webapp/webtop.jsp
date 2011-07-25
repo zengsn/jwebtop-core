@@ -90,6 +90,7 @@
 
 <div id="x-desktop">
     <a href="./" target="_blank" style="margin:5px; float:right;" class="logo">&nbsp;</a>
+	<span id="welcome-username" class="x-hidden"><security:authentication property="name" /></span>
 
     <dl id="x-shortcuts">
         <dt id="administrator-win-shortcut">
@@ -113,6 +114,7 @@
             <div>学生管理</div></a>
         </dt>
     </dl>
+    
 </div>
 
 <div id="ux-taskbar">

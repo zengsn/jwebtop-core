@@ -11,7 +11,7 @@
 
 
     <http access-decision-manager-ref="accessDecisionManager" auto-config="false">
-        <intercept-url pattern="/index.jxp*" access="ROLE_USER,ROLE_GUEST" />
+        <!-- intercept-url pattern="/index.jxp*" access="ROLE_USER,ROLE_GUEST" /-->
     	<intercept-url pattern="/signin.jxp" access="ROLE_USER,ROLE_GUEST"/>  
 		<intercept-url pattern="/*.jxp*" access="ROLE_USER"/>
         <!-- 
@@ -37,7 +37,10 @@
             <user name="demo" password="demo" authorities="ROLE_USER" />
         </user-service>
         -->
-        <jdbc-user-service data-source-ref="dataSource" cache-ref="userCache" />        
+        <jdbc-user-service data-source-ref="dataSource" cache-ref="userCache"
+        	users-by-username-query="SELECT username_ as username, password_ as password, enabled_ as enabled FROM users WHERE username_ = ?"
+        	authorities-by-username-query="SELECT users.username_ as username, authorities.authority_ as authority FROM users, authorities WHERE users.username_ = ? AND users.uid_ = authorities.uid_" 
+        /> 
     </authentication-provider>
     </authentication-manager>     
     
