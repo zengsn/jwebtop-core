@@ -12,6 +12,7 @@
 
     <http access-decision-manager-ref="accessDecisionManager" auto-config="false">
         <!-- intercept-url pattern="/index.jxp*" access="ROLE_USER,ROLE_GUEST" /-->
+        <intercept-url pattern="/index.jsp" access="ROLE_USER"/>
     	<intercept-url pattern="/signin.jxp" access="ROLE_USER,ROLE_GUEST"/>  
 		<intercept-url pattern="/*.jxp*" access="ROLE_USER"/>
         <!-- 
